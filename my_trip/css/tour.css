@@ -1,0 +1,274 @@
+/*
+Template Name: Adven Trip
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************tour****************/
+.tour_1r1r .form-select {
+width: 80%;
+}
+
+.accordion-button {
+background: #41722c;
+color:#fff; 
+padding:8px 15px;
+font-weight: bold;
+border: 0;
+font-size: 18px;
+text-align: left;
+}
+.accordion-button:focus {
+box-shadow: none;
+border: none;
+}
+.accordion-button:not(.collapsed) {
+background:#63ab45;
+color:#fff;
+padding:8px 15px;
+}
+.accordion-body {
+padding: 20px;
+background: #fafafa; 
+}
+.accordion-button::after {
+width: auto;
+height: auto;
+content: "+";
+font-size: 40px;
+background-image: none;
+font-weight: 100;
+color: #fff;
+transform: translateY(-4px);
+}
+.accordion-button:not(.collapsed)::after {
+width: auto;
+height: auto;
+background-image: none;
+content: "-";
+font-size: 40px;
+transform: translate(-5px, -4px);
+transform: rotate(0deg);
+}
+.accordion-item{
+border:none;
+border-radius:0;
+background:none;
+border-bottom:1px solid #d5f1c9;
+margin-bottom:10px;
+}
+.room_dt1l2ir .progress-bar {
+background: #F9F9F9;
+border-radius: 0;
+}
+.room_dt1l2ir .progress {
+background-color: #63ab45;
+height: 7px;
+overflow: hidden;
+border-radius: 0;
+}
+.book_1lil span{
+font-size:26px; 
+ }
+.tour_1r2r {
+padding:35px 15px!important;
+ }
+.tour_1r2l img {
+max-height:280px;
+ }
+.tour_1l1 h5{
+font-size:24px;
+color:#0c0c0c; 
+ }
+.tour_1r2r h5 a{
+font-size:24px; 
+color:#0c0c0c; 
+ }
+.tour_1r2r h5 a:hover{
+color:#000!important; 
+ }
+ 
+.tour_1dt1 h3{
+font-size:32px; 
+ }
+.tour_1dt1 h5{
+font-size:22px; 
+ }
+.tour_1dt h4{
+font-size:26px; 
+ }
+/*********************tour_end****************/
+
+
+@media screen and (max-width : 767px){
+#tour{
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+.book_1li {
+text-align:center; 
+ }
+.book_1lir{
+margin-top:10px; 
+ }
+.tour_1l1  h5{
+text-align:center; 
+ }
+.tour_1r1 {
+text-align:center;  
+ }
+.tour_1r1r .form-select {
+width: 70%;
+}
+.tour_1r2  .ps-0{
+padding-left:12px!important; 
+ }
+.tour_1r2r {
+padding:10px!important; 
+ }
+.tour_1dt{
+margin-top:15px; 
+ }
+.tour_1dt1 h3{
+text-align:center; 
+ }
+.tour_1dt1 h5{
+text-align:center; 
+ }
+.tour_1dt2 h4{
+text-align:center; 
+ }
+.tour_1dt2il{
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.tour_1dt3 h4{
+text-align:center; 
+ }
+.tour_1dt4 h4{
+text-align:center; 
+ }
+.tour_1dt5 h4{
+text-align:center; 
+ }
+.tour_1dt6 h4{
+text-align:center; 
+ }
+.room_dt1l2ir{
+margin-top:15px; 
+ }
+.tour_1dt7 h4{
+text-align:center; 
+ }
+
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+#tour{
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+.book_1lil span{
+font-size:12px!important;
+ }
+.feat_1i2il h6 {
+font-size: 8px;
+}
+.feat_1i1 img{
+ min-height:260px;
+ }
+.tour_1r1r .form-select {
+width: 60%;
+}
+.tour_1r2r  h5{
+font-size:14px; 
+ }
+.tour_1r2r {
+padding:30px 15px!important;
+ }
+.tour_1l1 {
+padding:15px!important; 
+ }
+.tour_1r2r{
+padding:20px 15px!important; 
+ }
+.tour_1l1 h5{
+font-size:20px;
+ }
+.tour_1r2r h5 a{
+font-size:20px; 
+ }
+ 
+.tour_1dt1 h3{
+font-size:26px; 
+ }
+.tour_1dt1 h5{
+font-size:20px; 
+ }
+.tour_1dt h4{
+font-size:22px; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.book_1lil span{
+font-size:20px!important;
+ }
+.feat_1i2il h6 {
+font-size: 8px;
+}
+.feat_1i1 img{
+ min-height:260px;
+ }
+.tour_1r1r .form-select {
+width: 60%;
+}
+.tour_1r2r  h5{
+font-size:16px; 
+ }
+.tour_1r2r {
+padding:20px 15px!important;
+ }
+.tour_1l1 h5{
+font-size:22px;
+ }
+.tour_1r2r h5 a{
+font-size:22px; 
+ }
+ 
+.tour_1dt1 h3{
+font-size:28px; 
+ }
+.tour_1dt1 h5{
+font-size:22px; 
+ }
+.tour_1dt h4{
+font-size:24px; 
+ }
+
+ }
+@media (min-width:1201px) and (max-width:1300px) {
+.tour_1r2r  h5{
+font-size:16px; 
+ }
+.tour_1r1r .form-select {
+width: 75%;
+}
+.feat_1i1 img{
+ min-height:260px;
+ }
+.tour_1r2r {
+padding:30px 15px!important;
+ }
+.tour_1r2r {
+padding:25px 15px!important;
+ }
+ }
+
+
+

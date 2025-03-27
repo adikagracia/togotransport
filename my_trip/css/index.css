@@ -1,0 +1,333 @@
+/*
+Template Name: Adven Trip
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************center****************/
+.carousel-caption{
+background-color: rgba(0, 0, 0, 0.7);
+padding:210px 160px 0px 160px;
+bottom:0;
+left:0;
+width:100%;
+height:100%;
+text-align:left;
+ }
+.center_home img{
+min-height:700px;
+ }
+.center_home .carousel-indicators {
+bottom: 70px!important;
+}
+
+.main_2{
+bottom:-55px; 
+ }
+#new{
+margin-top:200px; 
+ }
+/*********************center_end****************/
+
+/*********************acti****************/
+#acti{
+margin-top:55px; 
+ }
+.acti_2i2 h5 span a{
+width:40px;
+height:40px;
+line-height:40px; 
+ }
+.acti_2i2{
+bottom:30px;
+width:90%;
+left:5%; 
+ }
+.acti_2i:hover h5 span a{
+background:#63ab45!important;
+transition: 0.3s;
+ }
+.acti_2i:hover .line{
+background:#f7921e;
+transition: 0.3s;
+ }
+/*********************acti_end****************/
+
+/*********************about_h****************/
+
+.about_h1li img{
+border-radius:0px 30px 0px 0px; 
+ }
+.about_h1li1 img{
+border-radius:20px;
+border:10px solid #fff; 
+ }
+.about_h1li1{
+bottom:-30px; 
+ }
+.about_h1li2{
+right:0;
+bottom:0;
+ }
+.about_h1li3{
+right:0; 
+ }
+.about_h1li3 span{
+width:90px;
+height:90px;
+line-height:90px;
+ }
+#about_h{
+padding-bottom:60px; 
+ }
+/*********************about_h_end****************/
+
+/*********************natu****************/
+
+.natu_1m .progress-bar {
+background: #fff;
+border-radius: 0;
+}
+.natu_1m .progress {
+background-color: #63ab45;
+height: 10px;
+overflow: hidden;
+border-radius: 0;
+}
+
+.book_1lo {
+margin-top:35px;
+ }
+/*********************natu_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.main_2 {
+position:static!important; 
+ }
+.carousel-caption{
+padding:15px;
+text-align:center;
+ }
+.carousel-caption p{
+text-align:left;
+font-size:14px;
+ }
+.carousel-caption br{
+display:none;
+ }
+.center_home img{
+min-height:350px;
+ }
+.carousel-caption .font_60{
+font-size:22px;
+ }
+.center_home .carousel-indicators {
+bottom: 0!important;
+}
+.book_1l{
+text-align:center;
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.book_1lir{
+margin-top:10px; 
+ }
+#acti {
+margin-top:0;
+padding-left:0!important; 
+padding-right:0!important; 
+}
+#book{
+padding-top:30px;
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+.acti_2i {
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.about_h1l  img{
+width:100%; 
+ }
+.about_h1li1 {
+position:static!important;
+margin-top:15px;
+}
+
+#natu{
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+.natu_1m{
+margin-top:15px;
+margin-bottom:15px; 
+ }
+.blog_1l br{
+display:none; 
+ }
+.blog_1l {
+text-align:center;
+ }
+.blog_1r {
+text-align:center!important;
+margin-top:15px!important;
+ }
+.acti_2i2{
+text-align:center;  
+  }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+.carousel-caption{
+padding:25px;
+ }
+.carousel-caption p{
+font-size:16px;
+ }
+
+.carousel-caption .font_60{
+font-size:28px;
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+#acti {
+margin-top:0;
+padding-left:0!important; 
+padding-right:0!important; 
+}
+#book{
+padding-top:30px;
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+#natu{
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+
+.carousel-caption br{
+display:none;
+ }
+.carousel-caption .font_60{
+font-size:40px;
+ }
+.carousel-caption{
+padding:210px 150px 0px 150px;
+ }
+.main_2 {
+position:static!important; 
+ }
+.book_1lil span{
+font-size:12px!important;
+ }
+.book_1lir h6{
+font-size:12px; 
+ }
+.book_1l  .button_1{
+padding-left:10px;
+padding-right:10px;
+font-size:12px;
+margin-top:10px; 
+ }
+.acti_2i2  h5{
+font-size:12px; 
+ }
+.acti_2i2  p{
+font-size:12px; 
+ }
+.acti_2i2  {
+padding:10px!important; 
+ }
+.about_h1li  img{
+width:100%; 
+ }
+
+.natu_1m img{
+width:30px;
+height:30px;
+line-height:30px; 
+ }
+.natu_2r .button_2{
+padding-left:15px;
+padding-right:15px; 
+ }
+.center_home .carousel-indicators {
+bottom: 0!important;
+}
+.carousel-caption br{
+display:none;
+ }
+.book_1l h6{
+font-size:12px; 
+ }
+.book_1l h6 span{
+font-size:20px!important; 
+ }
+.book_1lo{
+margin-top:15px; 
+ }
+.acti_2i2 h5 span a {
+width: 20px;
+height: 20px;
+line-height: 20px;
+}
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.book_1lil span{
+font-size:12px!important;
+ }
+.book_1lir h6{
+font-size:12px; 
+ }
+.book_1l  .button_1{
+padding-left:15px;
+padding-right:15px;
+font-size:14px;
+margin-top:10px; 
+ }
+.carousel-caption br{
+display:none;
+ }
+.acti_2i2  h5{
+font-size:16px; 
+ }
+.acti_2i2  p{
+font-size:14px; 
+ }
+.acti_2i2  {
+padding:10px!important; 
+ }
+.about_h1li  img{
+width:100%; 
+ }
+.natu_2r .button_2{
+padding-left:15px;
+padding-right:15px; 
+ }
+.book_1lo{
+margin-top:25px; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1300px) {
+.book_1lil span{
+font-size:18px!important;
+ }
+.book_1lir h6{
+font-size:12px; 
+ }
+.book_1l  .button_1{
+padding-left:30px;
+padding-right:30px;
+ }
+.acti_2i2 h5{
+font-size:16px; 
+ }
+ }
+
+
+
